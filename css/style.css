@@ -1,0 +1,494 @@
+/* ******************************************************************
+Common CSS Start
+****************************************************************** */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin-bottom: 0px!important;
+}
+
+/* ******************************************************************
+Common CSS End
+****************************************************************** */
+
+
+/* ******************************************************************
+Header Menu CSS Start
+****************************************************************** */
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0px 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #c7b299;
+}
+
+.navbar {
+    padding-top: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    position: fixed;
+}
+
+/* ******************************************************************
+Header Menu CSS End
+****************************************************************** */
+
+
+/* ******************************************************************
+Banner CSS Start
+****************************************************************** */
+#banner{
+    background: url(../images/Waxom-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-overlay{
+    background: rgba(1, 1, 1, 0.7);
+    padding: 380px 0px;
+}
+
+.banner-text h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.banner-text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    padding-bottom: 13px;
+}
+
+.banner-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 48px;
+    line-height: 24px;
+}
+
+.banner-text a{
+    padding: 21px 37px 18px 39px;
+    background: #998675;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 3px solid #0736357;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;    
+}
+
+/* ******************************************************************
+Banner CSS End
+****************************************************************** */
+
+
+/* ******************************************************************
+Service CSS Start
+****************************************************************** */
+#service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.service-item i{
+    font-size: 35px;
+    color: #555555;
+    padding-bottom: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.service-item h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555;
+    padding-bottom: 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.service-item p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 24px;
+}
+
+.service-item{
+    position: relative;
+}
+
+.service-item::after{
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: #f1eee9;
+    border-radius: 5px;
+    content: "";
+    bottom: -30px;
+    left: 50%;
+    transition: all linear .3s;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.service-item:hover i{
+    color: #c7b299;
+}
+
+.service-item:hover h3{
+    color: #c7b299;
+}
+
+.service-item:hover::after{
+    background: #c7b299;
+    width: 70px;
+}
+
+/* ******************************************************************
+Service CSS End
+****************************************************************** */
+
+
+
+/* ******************************************************************
+Idea Part CSS Start
+****************************************************************** */
+#idea{
+    padding-top: 80px;
+    background: #fbfaf8;
+}
+
+.idea-text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    padding-bottom: 20px;
+}
+
+.idea-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-bottom: 35px;
+    line-height: 24px;
+}
+
+/* ******************************************************************
+Idea Part CSS End
+****************************************************************** */
+
+
+/* ******************************************************************
+Common CSS Start
+****************************************************************** */
+#purchase{
+    padding: 50px 0px;
+    background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+}
+
+.purchase-text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+
+.purchase-text h3 span{
+    color: #c7b299;
+}
+
+.purchase-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #615855;
+    padding-bottom: 4px;
+}
+
+.purchase-btn a{
+    padding: 19px 28px 17px 29px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+/* ******************************************************************
+Common CSS End
+****************************************************************** */
+
+
+
+/* ******************************************************************
+Project CSS Start
+****************************************************************** */
+#project{
+    padding: 80px 0px;
+}
+
+.project-text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    padding-bottom: 19px;
+}
+
+.project-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-bottom: 35px;
+}
+
+.project-btn button{
+    padding: 10px 25px;
+    background: none;
+    border: 1px solid #ebebeb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-transform: capitalize;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0px 3px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.project-btn button:hover{
+    background: #998675;
+    border: none;
+    color: #ffffff;
+}
+
+.project-btn{
+    padding-bottom: 35px;
+}
+
+.project-item-img{
+    position: relative;
+}
+
+.project-item-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.7);
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.project-item-overlay i{
+    position: relative;
+    margin: 13px;
+    color: #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.project-item-overlay span i{
+    color: #c7b299;
+}
+
+.project-item:hover .project-item-overlay{
+    opacity: 1;
+}
+
+.project-item-text{
+    padding: 30px;
+    background: #fbfaf8;
+    position: relative;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.project-item-text h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #c7b299;
+    padding-bottom: 10px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.project-item-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #d1d1d1;
+    padding-bottom: 10px;
+    line-height: 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.project-item-text::after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fbfaf8;
+    content: "";
+    top: -15px;
+    left: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.project-item:hover .project-item-text{
+    background: #362f2d;
+}
+
+.project-item:hover .project-item-text h3{
+    color: #ffffff;
+}
+
+.project-item:hover .project-item-text p{
+    color: #c7b299;
+}
+
+.project-item:hover .project-item-text::after{
+    background: #362f2d;
+}
+
+
+/* ******************************************************************
+Project CSS End
+****************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************************************************
+Common CSS Start
+****************************************************************** */
+
+
+/* ******************************************************************
+Common CSS End
+****************************************************************** */
